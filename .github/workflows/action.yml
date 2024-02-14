@@ -12,4 +12,4 @@ jobs:
           ls /home/runner/work/TryAction/TryAction/try-action-sr
       - name: Hello world action step
         id: hello
-        uses: ${{github.workspace }}/try-action-sr@v1
+        uses: /home/runner/work/TryAction/TryAction/try-action-sr@v1
