@@ -9,4 +9,4 @@ jobs:
         uses: actions/checkout@v4
       - name: List files in the repository
         run: |
-          ls /SimaRaifen/TryAction/try-action-sr
+          ls /home/runner/work/TryAction/TryAction/try-action-sr
