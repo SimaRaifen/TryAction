@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: send
         id: slack
-        uses: SimaRaifen/TryAction@v2
+        uses: SimaRaifen/TryAction@v1
