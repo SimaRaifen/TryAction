@@ -12,4 +12,4 @@ jobs:
           ls /home/runner/work/TryAction/TryAction/try-action-sr
       - name: send message to slack
         id: slack
-        uses: SimaRaifen/TryAction/try-action-sr/Dockerfile@v1
+        uses: SimaRaifen/TryAction/try-action-sr@v1
