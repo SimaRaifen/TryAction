@@ -9,4 +9,4 @@ jobs:
         uses: actions/checkout@v4
       - name: List files in the repository
         run: |
-          ls ${{ github.workspace }}
+          ls /SimaRaifen/TryAction/try-action-sr
