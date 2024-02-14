@@ -5,10 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     name: send message to slack
     steps:
-      - name: slack action step
-        id: slack
-        uses: SimaRaifen/TryAction@v1.1
-        
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
