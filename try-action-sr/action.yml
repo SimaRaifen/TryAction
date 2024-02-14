@@ -1,0 +1,5 @@
+name: 'send message'
+description: 'send message to slack'
+runs:
+  using: 'node20'
+  main: 'index.js'
