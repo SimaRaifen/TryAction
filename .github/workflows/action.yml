@@ -7,5 +7,5 @@ jobs:
     steps:
       - name: slack action step
         id: slack
-        uses: SimaRaifen/TryAction@v1
+        uses: SimaRaifen/TryAction@v1.1
         
