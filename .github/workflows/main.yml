@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          repository: SimaRaifen/TryAction@v1
+          ref: try1
         
-      - name: send
-        id: slack
-        uses: SimaRaifen/TryAction@v1
