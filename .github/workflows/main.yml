@@ -1,0 +1,10 @@
+on: [push]
+
+jobs:
+  send_message_job:
+    runs-on: ubuntu-latest
+    name: send message to slack
+    steps:
+      - name: send
+        id: slack
+        uses: SimaRaifen/TryAction@v1.1
