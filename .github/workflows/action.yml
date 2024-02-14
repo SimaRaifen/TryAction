@@ -9,3 +9,6 @@ jobs:
         id: slack
         uses: SimaRaifen/TryAction@v1.1
         
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
