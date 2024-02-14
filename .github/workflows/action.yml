@@ -10,6 +10,6 @@ jobs:
       - name: List files in the repository
         run: |
           ls /home/runner/work/TryAction/TryAction/try-action-sr
-      - name: slack action step
+      - name: send message to slack
         id: slack
-        uses: SimaRaifen/TryAction/try-action-sr@v1
+        uses: SimaRaifen/TryAction/try-action-sr/Dockerfile@v1
