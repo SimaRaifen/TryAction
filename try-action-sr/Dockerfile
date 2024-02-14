@@ -5,4 +5,4 @@ FROM node
 COPY index.js /index.js
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-CMD ["/index.js"]
+CMD ["node","/index.js"]
