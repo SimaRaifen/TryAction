@@ -1,6 +1,6 @@
 name: 'send message'
 description: 'send message to slack'
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: 'node20'
+  main: 'dist/index.js'
 
