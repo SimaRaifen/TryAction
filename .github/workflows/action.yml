@@ -5,9 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: send message to slack
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          repository: SimaRaifen/TryAction@v1
-          ref: try1
+      - name: slack action step
+        id: slack
+        uses: SimaRaifen/TryAction@v1
         
